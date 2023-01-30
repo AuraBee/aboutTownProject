@@ -1,0 +1,174 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+*:before,
+*:after {
+     box-sizing: border-box;    
+    }
+
+html {
+    font-size: 62.5%;
+    }
+    
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-size: 2.1rem;
+    }
+
+h1, h2, h3, h4, h3, p {
+    margin-top:0;
+    }
+    
+img {
+    width: 100px;
+    }
+
+/* HERO>>>>>>>****/
+#hero {
+    background-image: url(images/london_i_byDusk.jpg);
+    /* object-fit: cover; */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* width: 100%; */
+    height:500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: ivory;
+    }
+
+.hero-title {
+    padding: 10px 15px;
+    text-shadow: 0 0 4px lightseagreen;
+    background: navy;
+    width: 30%;
+    margin:0 auto;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    }
+
+.hero-title:hover {
+    border: 2px solid pink;
+    background-image: linear-gradient(turquoise, cornflowerblue);
+    color: pink; 
+    text-shadow: 1px 1px 2px navy;
+}
+
+.hero-sub-title {
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid pink;
+    background: royalblue;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: smaller;
+    text-shadow: 1px 1px black;
+    border-radius: 5px;
+    }
+/* 
+.hero-sub-title:hover { 
+    background-image: linear-gradient(royalblue, navy);
+    color: ivory;
+    } */
+
+
+span:hover {
+    color: pink;
+     font-weight: 700;
+}
+/*<<<< END<<<<<<<<<< */
+    
+/* ACTIVITIES SECTION>>>>>>>> */
+#activities {
+    background: lavenderblush;
+    padding: 5px 0 30px;
+    }
+
+.activity-columns {
+    display: flex;
+   }
+
+.activities-title {
+    margin: 25px 0 40px;
+    }
+
+.activity-card {
+    margin: 10px 20px;
+    font-size: smaller;
+    text-align: center;
+    background: ivory;
+    padding: 30px; 
+    border-radius: 8px; 
+    }
+
+.card-title {
+    padding: 10px 0 0 ;
+    font-size: smaller;
+    text-align: center;
+    background: ivory;
+    padding: 25px; 
+    border-radius: 8px; 
+    }
+
+    
+.activity-image {
+    /* width: 150px; */
+    border-radius: 100%;
+    }
+    
+.activity-text {
+    width: 80%;
+    margin: 0 auto;
+    }
+/* <<<<<<<<<<END OF ACTIVITIES <<<<<<*/
+
+
+
+/* GUIDE SECTION>>>>>>>> */
+/* >>> */
+
+/* #guide-section {
+    display:flex;
+} */
+
+.guide-banner {
+    /* width: 400px;
+    margin: 0 auto; */
+    /* background: palevioletred; */
+    padding: 30px;
+    }
+
+.guide-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    border-bottom: 8px solid royalblue;
+    }
+
+.guide-avatar {
+    height: 100%;
+    width: 150px;
+    }
+
+.guide-text {
+    padding: 0 20px;
+    /* width:200px; */
+    margin: 0 auto;
+    }
+ 
+/*<<<<<<<<<< ENDS<<<<<< */
